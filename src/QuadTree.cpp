@@ -5,7 +5,6 @@
 QuadTree::QuadTree( int x, int y, int w, int h, int capacity ) :
     m_x(x), m_y(y), m_w(w), m_h(h),
     m_c(capacity),
-    m_divided(false),
     m_qt1(nullptr), m_qt2(nullptr), m_qt3(nullptr), m_qt4(nullptr)
 {
     m_rect.setFillColor(sf::Color(randomi(0,255),randomi(0,255),randomi(0,255)));
