@@ -104,7 +104,6 @@ void Engine::update(sf::Time deltaTime)
     if(Echap) { m_window.close(); }
     if(MouseL && !MouseLPressed) {         
         my_qt.insert(sf::Mouse::getPosition().x, sf::Mouse::getPosition().y);
-        MouseLPressed = true;
     }
     if(MouseR && !MouseRPressed) { 
 

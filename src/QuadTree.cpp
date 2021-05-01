@@ -7,9 +7,12 @@ QuadTree::QuadTree( int x, int y, int w, int h, int capacity ) :
     m_c(capacity),
     m_qt1(nullptr), m_qt2(nullptr), m_qt3(nullptr), m_qt4(nullptr)
 {
-    m_rect.setFillColor(sf::Color(randomi(0,255),randomi(0,255),randomi(0,255)));
+    m_rect.setFillColor(sf::Color::White);
     m_rect.setPosition(x,y);
     m_rect.setSize(sf::Vector2f(w,h));
+    m_rect.setOutlineThickness(-1);
+    m_rect.setOutlineColor(sf::Color::Black);
+
 
     m_point.setFillColor(sf::Color::Black);
     m_point.setSize(sf::Vector2f(5,5));
