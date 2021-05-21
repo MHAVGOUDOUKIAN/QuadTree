@@ -6,7 +6,7 @@
 
 ## Commandes
 
-| **Touches** | **Action** |
+| **Touche** | **Action** |
 |------|------|
 |**BOUTON GAUCHE SOURIS (LMB)**| Ajouter un élément dans l'arbre |
 |**BOUTON DROIT SOURIS (RMB)**| Déterminer les éléments près du pointeur de la souris |
