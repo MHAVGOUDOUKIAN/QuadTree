@@ -6,14 +6,14 @@
 
 ## Commandes
 
-| **Touches | Action** |
+| **Touches** | **Action** |
 |------|------|
 |**BOUTON GAUCHE SOURIS (LMB)**| Ajouter un élément dans l'arbre |
 |**BOUTON DROIT SOURIS (RMB)**| Déterminer les éléments près du pointeur de la souris |
 
 ## Notes
-- Actuellement, vous ne pouvez ajouter que des points comme éléments
-- La zone de recherche d'éléments autour du pointeur de la souris fait 100px * 100px, dans cette version du programme vous ne pouvez pas la modifier
+- Actuellement, vous ne pouvez ajouter que des points dans l'arbre.
+- La zone de recherche d'éléments autour du pointeur de la souris fait 100px * 100px, dans cette version du programme vous ne pouvez pas la modifier (résultats affichés dans la console).
 
 ## Annexes
   Source: https://fr.wikipedia.org/wiki/Quadtree
