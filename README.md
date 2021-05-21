@@ -6,10 +6,10 @@
 
 ## Commandes
 
-| Touches | Action |
+| **Touches | Action** |
 |------|------|
-|LMB| Ajouter un élément dans l'arbre |
-|RMB| Déterminer les éléments près du pointeur de la souris |
+|**BOUTON GAUCHE SOURIS (LMB)**| Ajouter un élément dans l'arbre |
+|**BOUTON DROIT SOURIS (RMB)**| Déterminer les éléments près du pointeur de la souris |
 
 ## Notes
 - Actuellement, vous ne pouvez ajouter que des points comme éléments
