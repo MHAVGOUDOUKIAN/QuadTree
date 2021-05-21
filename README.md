@@ -8,4 +8,12 @@
 
 | Touches | Action |
 |------|------|
-https://fr.wikipedia.org/wiki/Quadtree
+|LMB| Ajouter un élément dans l'arbre |
+|RMB| Déterminer les éléments près du pointeur de la souris |
+
+## Notes
+- Actuellement, vous ne pouvez ajouter que des points comme éléments
+- La zone de recherche d'éléments autour du pointeur de la souris fait 100px * 100px, dans cette version du programme vous ne pouvez pas la modifier
+
+## Annexes
+  Source: https://fr.wikipedia.org/wiki/Quadtree
