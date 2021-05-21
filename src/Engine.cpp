@@ -103,10 +103,18 @@ void Engine::update(sf::Time deltaTime)
 
     if(Echap) { m_window.close(); }
     if(MouseL && !MouseLPressed) {         
-        my_qt.insert(sf::Mouse::getPosition().x, sf::Mouse::getPosition().y);
+        my_qt.insert(sf::Mouse::getPosition(m_window).x, sf::Mouse::getPosition(m_window).y);
+        MouseLPressed = true;
     }
     if(MouseR && !MouseRPressed) { 
-
+        std::vector<sf::Vector2f> temp = my_qt.searchIn(sf::Mouse::getPosition(m_window).x - 50, sf::Mouse::getPosition(m_window).y -50, 100, 100);
+        
+        std::cout << "[ ";
+        for(size_t i=0; i<temp.size(); i++)
+        {
+            std::cout << "(" << temp[i].x << "," << temp[i].y << ")"; 
+        }
+        std::cout << " ]" << std::endl;
     }
     if(Left && !LeftPressed) { }
     if(Right) { }

@@ -10,9 +10,12 @@ class QuadTree
         ~QuadTree();
 
         bool insert( int x, int y );
-        bool ObjectIsInsideQuadrant( int x, int y );
+        bool ObjectIsInsideQuadrant( int x, int y ) const;
+        bool AreaIsInsideQuadrant( int x, int y, int w, int h ) const;
+        bool ObjectIsInsideArea( int ox, int oy, int ax, int ay, int aw, int ah ) const;
         void subdivide( void );
-        void show( void ); // Afficher l'arbre dans la console
+        std::vector<sf::Vector2f> searchIn( int x, int y, int w, int h ); // Recherche d'éléments dans la zone indiquée
+        void show( void ) const; // Afficher l'arbre dans la console
         void draw( sf::RenderWindow& target ); // Afficher l'arbre dans une fenêtre
 
     private:
