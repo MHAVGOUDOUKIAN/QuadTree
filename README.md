@@ -9,7 +9,8 @@
 | **Touche** | **Action** |
 |------|------|
 |**BOUTON GAUCHE SOURIS (LMB)**| Ajouter un élément dans l'arbre |
-|**BOUTON DROIT SOURIS (RMB)**| Déterminer les éléments près du pointeur de la souris |
+|**BOUTON DROIT SOURIS (RMB)**| Afficher les coordonnées des éléments proches de la souris |
+|**Echap**|Quitter le programme|
 
 ## Notes
 - Actuellement, vous ne pouvez ajouter que des points dans l'arbre.
