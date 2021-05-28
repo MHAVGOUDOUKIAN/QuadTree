@@ -1,4 +1,4 @@
-# QuadTree
+# _QuadTree_
   
   Ce code permet de visualiser une structure de données QuadTree
 
